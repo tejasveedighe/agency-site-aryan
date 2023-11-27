@@ -393,6 +393,7 @@ a {
 }
 
 .privacy-text {
+    margin: 25px auto;
     color: white;
     text-align: center;
     font-size: 20px;
