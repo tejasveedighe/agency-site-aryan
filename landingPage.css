@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@500&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+html,
+body {
+	margin: 0;
+	background: #19191b;
+}
+
+.navbar {
+	margin-top: 10px;
+}
+
+.navbar-brand {
+	margin-left: 10px;
+	color: #fff;
+	font-family: "Montserrat", sans-serif;
+	font-size: 28px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 140%;
+	/* 39.2px */
+
+	display: flex;
+	align-items: center;
+}
+
+.logo {
+	width: 43px;
+	height: 43px;
+	object-fit: cover;
+}
+
+.ebook-heading {
+	font-family: "Nunito Sans";
+	text-align: center;
+	font-weight: 100;
+	letter-spacing: 2.5px;
+	font-size: 36px;
+	text-transform: uppercase;
+	color: #d454b8;
+}
+
+.company-heading {
+	color: white;
+	text-align: start;
+	font-size: 65px;
+	font-family: "Montserrat";
+	letter-spacing: 0px;
+	line-height: 84px;
+}
+
+.center_container {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	color: white;
+
+	.form-image-left {
+		width: 693px;
+		height: 501px;
+	}
+}
+
+.feature-list {
+	list-style-image: url("./assets/icons/list-icon.png");
+}
+
+.feature {
+	text-align: start;
+	font-size: 24px;
+	letter-spacing: 0;
+	font-family: "Montserrat";
+	max-width: 507px;
+	margin-top: 14px;
+
+	div {
+		display: inline-block;
+		vertical-align: middle;
+		margin-left: 15px;
+	}
+}
+
+.ebook-form {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	gap: 10px;
+
+	.ebook-input {
+		width: 556px;
+		padding: 20px;
+		border-radius: 20px;
+		border: none;
+		font-size: 24px;
+	}
+	.ebook-button {
+		cursor: pointer;
+		padding: 20px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		gap: 10px;
+		background-color: #5454d4;
+		color: white;
+		border-radius: 10px;
+		border: none;
+		width: 100%;
+		font-family: "Nunito Sans";
+
+		.top-text {
+			font-size: 24px;
+			font-weight: 600;
+		}
+		.bottom-text {
+			font-size: 16px;
+		}
+	}
+}
